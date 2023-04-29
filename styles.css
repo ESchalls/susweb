@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    background-color: #000000;
 }
 
 .whatknappe {
@@ -12,20 +12,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 20px 0px #DB2E65;    
+    box-shadow: 0px 0px 20px 0px #DB2E65;  
+    margin-top: 88px;
+    margin-left: 40px;
 }
 
 .whatindhold {
     background: #DB2E65;
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 354px;
-    height: 380px;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 20px 0px #DB2E65;   
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 2px;
 }
 
 .factsknappe {
@@ -39,19 +44,24 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 20px 0px #59E1F5;
+    margin-top: 64px;
+    margin-left: 200px;
 }
 
 .factsindhold {
     background: #59E1F5;
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 354px;
-    height: 260px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 20px 0px #59E1F5;  
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 2px;
 }
 
 .howknappe {
@@ -65,19 +75,24 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 20px 0px #EADB66;
+    margin-top: 64px;
+    margin-left: 40px;
 }
 
 .howindhold {
     background: #EADB66;
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 354px;
-    height: 380px;
+    height: 260px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 20px 0px #EADB66;  
+    box-shadow: 0px 0px 20px 0px #EADB66;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 2px;
 }
 
 .shouldknappe {
@@ -91,19 +106,24 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0px 20px 0px #9A7FFA;
+    margin-top: 64px;
+    margin-left: 200px;
 }
 
 .shouldindhold {
     background: #9A7FFA;
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 354px;
-    height: 400px;
+    height: 340px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 20px 0px #9A7FFA;  
+    box-shadow: 0px 0px 20px 0px #9A7FFA;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 2px;
 }
 
 .homeknappe {
@@ -116,5 +136,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 0px 50px 0px #80EBA5;
+    box-shadow: 0px 0px 20px 0px #80EBA5;
+    margin-top: 64px;
+    margin-left: 40px;
 }
+
+.footer {
+    color: white;
+    margin-top: 172px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.footer .title {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer .about {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer .contact {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer .about {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer a {
+    color: white;
+}
+
