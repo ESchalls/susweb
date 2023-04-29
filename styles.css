@@ -1,3 +1,120 @@
 *{
     background-color: black;
 }
+
+.whatknappe {
+    background: #DB2E65;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px #DB2E65;    
+}
+
+.whatindhold {
+    background: #DB2E65;
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 354px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px #DB2E65;   
+}
+
+.factsknappe {
+    background: #59E1F5;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px #59E1F5;
+}
+
+.factsindhold {
+    background: #59E1F5;
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 354px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px #59E1F5;  
+}
+
+.howknappe {
+    background: #EADB66;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px #EADB66;
+}
+
+.howindhold {
+    background: #EADB66;
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 354px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px #EADB66;  
+}
+
+.shouldknappe {
+    background: #9A7FFA;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px #9A7FFA;
+}
+
+.shouldindhold {
+    background: #9A7FFA;
+    font-size: 18px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 354px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 0px #9A7FFA;  
+}
+
+.homeknappe {
+    background: #80EBA5;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 50px 0px #80EBA5;
+}
