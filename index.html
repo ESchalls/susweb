@@ -4,32 +4,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <title>Sustainable Web</title>
 </head>
 <body>
     <section class="knapper">
-        <section class="whatknappe">
-            <h2>WHAT</h2>
-        </section>
-
-        <section class="factsknappe">
-            <h2>FACTS</h2>
-        </section>
-
-        <section class="howknappe">
-            <h2>HOW</h2>
-        </section>
-
-        <section class="shouldknappe">
-            <h2>SHOULD</h2>
-        </section>
-
-        <section class="homeknappe">
-            <h2>HOME</h2>
-        </section>      
+        <div class="whatknappe">WHAT</div>
+        <p class="whatindhold"><i><b>What</b> is sustainable webdesign?</i> Sustainable web-design is a method where you try to improve the sustainability on the internet. Everything you do on the internet has an effect on the environment, from the colors you choose to how much text is on the page. Even as a internet user, just browsing the internet can contaminate the environment. Most companies use a carbon reader to make sure that their website is well-received by the environment.</p>
     </section>
 
+    <section class="knapper">
+        <div class="factsknappe">FACTS</div>
+        <p class="factsindhold"><i><b>Facts</b> about sustainable web </i> If we continue on this path regarding sustainability, we can expect that by 2025 global technology will be the 4th biggest carbon contaminator. The internet contaminates almost as much as air travel.</p>
+    </section>
 
-    
+    <section class="knapper">
+        <div class="howknappe">HOW</div>
+        <p class="howindhold"><i><b>How</b> do companies work with sustainable webdesign?</i> A lot of companies are very aware of how they design their web-design. Many use dark colors and minimize the animation they have on their website. They do not want big pictures or videos playing in the background. Many companies also suggests minimizing the quality on the videos and pictures to make the website more sustainable and to also load faster. </p>
+    </section>
+
+    <section class="knapper">
+        <div class="shouldknappe">SHOULD</div>
+        <p class="shouldindhold"><i>How <b>should</b> you work with sustainable webdesign?</i> What you can do to make your website more sustainable, is to make sure that pictures and videos are not too big. You can edit the quality so it becomes more sustainable and looks almost similar. Big pictures with very good quality is not good for the environment. There is a lot of programs to help minimize the size and quality of pictures, including Photoshop, Squoosh and WebP. Regarding videos, many people use mp3 as a file, as a substitute you can use HE 40 kbit as that is better and the quality is almost the same.</p>
+    </section>
+
+    <section class="knapper">
+        <div class="homeknappe">HOME</div>
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $(".whatknappe").click(function () {
+                $(".whatindhold").slideToggle("slow");
+            });
+            
+            $(".factsknappe").click(function () {
+                $(".factsindhold").slideToggle("slow");
+            });
+
+            $(".howknappe").click(function () {
+                $(".howindhold").slideToggle("slow");
+            });
+
+            $(".shouldknappe").click(function () {
+                $(".shouldindhold").slideToggle("slow");
+            });
+
+            $(".homeknappe").click(function () {
+                $(".homeindhold").slideToggle("slow");
+            });
+        });
+    </script>   
 </body>
 </html>
