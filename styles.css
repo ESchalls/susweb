@@ -172,3 +172,64 @@
     color: white;
 }
 
+@media (min-width: 990px) {
+    .whatknappe:hover {
+        background-color: #e1628a;
+    }
+
+    .factsknappe:hover {
+        background-color: #aee8f1;
+    }
+
+    .howknappe:hover {
+        background-color: #efe595;
+    }
+
+    .shouldknappe:hover {
+        background-color: #beaff4;
+    }
+
+    .whatknappe {
+        margin-left: 216px;
+        margin-top: 125px;
+        cursor: pointer
+    }
+
+    .whatindhold {
+        margin-left: 100px;
+    }
+
+    .factsknappe {
+        margin-left: 700px;
+        margin-top: 50px;
+        cursor: pointer
+    }
+
+    .factsindhold {
+        margin-left: 580px;
+    }
+
+    .howknappe {
+        margin-left: 216px;
+        margin-top: 50px;
+        cursor: pointer
+    }
+
+    .howindhold {
+        margin-left: 100px;
+    }
+
+    .shouldknappe {
+        margin-left: 1100px;
+        margin-top: 50px;
+        cursor: pointer
+    }
+
+    .shouldindhold {
+        margin-left: 980px;
+    }
+
+    .homeknappe {
+        visibility: hidden;
+    }
+}
