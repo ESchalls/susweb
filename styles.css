@@ -1,7 +1,10 @@
+
+/*Her satte jeg min baggrundsfarve ind*/
 *{
     background-color: #000000;
 }
 
+/*Her designede jeg min what knappe*/
 .whatknappe {
     background: #DB2E65;
     font-size: 20px;
@@ -17,6 +20,7 @@
     margin-left: 40px;
 }
 
+/*Her designede jeg mit what tekst indhold*/
 .whatindhold {
     background: #DB2E65;
     font-size: 16px;
@@ -33,6 +37,7 @@
     margin-left: 2px;
 }
 
+/*Her designede jeg min facts knappe*/
 .factsknappe {
     background: #59E1F5;
     font-size: 20px;
@@ -48,6 +53,7 @@
     margin-left: 200px;
 }
 
+/*Her designede jeg mit facts teksindhold*/
 .factsindhold {
     background: #59E1F5;
     font-size: 16px;
@@ -64,6 +70,7 @@
     margin-left: 2px;
 }
 
+/*Her designede jeg min how knappe*/
 .howknappe {
     background: #EADB66;
     font-size: 20px;
@@ -79,6 +86,7 @@
     margin-left: 40px;
 }
 
+/*Her designede jeg mit how indhold*/
 .howindhold {
     background: #EADB66;
     font-size: 16px;
@@ -95,6 +103,7 @@
     margin-left: 2px;
 }
 
+/*Her designede jeg should knappe*/
 .shouldknappe {
     background: #9A7FFA;
     font-size: 20px;
@@ -110,6 +119,7 @@
     margin-left: 200px;
 }
 
+/*Her designede jeg mit should indhold*/
 .shouldindhold {
     background: #9A7FFA;
     font-size: 16px;
@@ -126,6 +136,7 @@
     margin-left: 2px;
 }
 
+/*Her designede jeg min home knappe*/
 .homeknappe {
     background: #80EBA5;
     font-size: 20px;
@@ -141,6 +152,7 @@
     margin-left: 40px;
 }
 
+/*Her designede jeg min footeer*/
 .footer {
     color: white;
     margin-top: 172px;
@@ -148,31 +160,43 @@
     margin-left: 10px;
 }
 
+/*Her designede jeg skriften på footeren*/
 .footer .title {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Her designede jeg skriften på footeren*/
 .footer .about {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Her designede jeg skriften på footeren*/
 .footer .contact {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.footer .about {
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
+/*Her designede jeg mine links og gjorde dem hvide*/
 .footer a {
     color: white;
 }
 
+.footer .link {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer .email {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Her lavede jeg media queries*/
 @media (min-width: 990px) {
+
+    /*Her lavede jeg hover effekt*/
     .whatknappe:hover {
         background-color: #e1628a;
     }
@@ -229,6 +253,7 @@
         margin-left: 980px;
     }
 
+    /*Her gjorde jeg home knappen usynlig*/
     .homeknappe {
         visibility: hidden;
     }

@@ -1,3 +1,5 @@
+//Her indsatte jeg toggle animation fra knapperne//
+
 $(document).ready(function () {
     $(".whatknappe").click(function () {
         $(".whatindhold").slideToggle("slow");
